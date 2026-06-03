@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Calibri', 'Arial', sans-serif;
+    font-size: 10.1px;
+    color: #111;
+    line-height: 1.32;
+    padding: 0.52in 0.62in 0.48in 0.62in;
+  }
+  h1 {
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .contact {
+    font-size: 9.4px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  .contact a { color: #333; text-decoration: none; }
+  hr.top { border: none; border-top: 2px solid #111; margin: 4px 0 1px 0; }
+  h2 {
+    font-size: 10.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 7px 0 2px 0;
+    border-bottom: 1px solid #999;
+    padding-bottom: 1px;
+  }
+  .company {
+    font-size: 10.5px;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  .job-header {
+    overflow: hidden;
+    margin-bottom: 2px;
+    margin-top: 1px;
+  }
+  .job-title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    float: left;
+  }
+  .job-date {
+    float: right;
+    color: #444;
+    font-size: 9.4px;
+  }
+  ul {
+    margin-left: 13px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
+  li {
+    margin-bottom: 1.8px;
+    font-size: 9.9px;
+  }
+  .skills-grid { margin-top: 2px; }
+  .skills-grid p { margin-bottom: 2.2px; font-size: 9.9px; }
+  .edu-row { overflow: hidden; margin-bottom: 2px; margin-top: 2px; }
+  .edu-name { font-weight: bold; font-size: 10px; }
+  .edu-detail { font-size: 9.4px; color: #444; }
+  .edu-date { float: right; font-size: 9.4px; color: #444; }
+  p.summary { font-size: 9.9px; margin: 2px 0 1px 0; line-height: 1.38; }
+  .inline-list { font-size: 9.5px; margin-top: 2px; }
+  .clearfix::after { content: ""; display: table; clear: both; }
+</style>
+</head>
+<body>
+
+<h1>Elijah Cassidy</h1>
+<div class="contact">
+  Cincinnati, OH &nbsp;·&nbsp; ecass777@gmail.com &nbsp;·&nbsp; (614) 940-6747 &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/elijah-cassidy-a2ba2b17a/">linkedin.com/in/elijah-cassidy-a2ba2b17a</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ecass777">github.com/ecass777</a>
+</div>
+<hr class="top">
+
+<h2>Professional Summary</h2>
+<p class="summary">
+  Full-stack software engineer and FinOps practitioner with production experience building cloud cost platforms, data pipelines, and AI evaluation systems at 84.51° (Kroger). Proficient across multiple cloud platforms and IaC tools — <strong>Microsoft Azure, Terraform, Kubernetes, Docker, and Helm</strong> — with a track record of delivering measurable cost savings at scale. Pursuing dual B.S. degrees in Software Development and Cybersecurity at the University of Cincinnati (2027).
+</p>
+
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+  <p><strong>Cloud &amp; Infrastructure:</strong> Microsoft Azure (AKS, Azure AD/Entra ID, ADLS Gen2, Azure Redis, Azure VMs, Azure Policy), Terraform, Kubernetes, Helm Charts, Docker, Snowflake</p>
+  <p><strong>Languages &amp; Frameworks:</strong> Python, SQL, JavaScript, HTML/CSS, Plotly Dash, Flask, React</p>
+  <p><strong>Data &amp; Analytics:</strong> Databricks (Delta Lake, Unity Catalog, SQL, Jobs, Notebooks), PostgreSQL, Redis, Power BI</p>
+  <p><strong>Auth &amp; Security:</strong> Azure AD / MSAL, OIDC, JWT Bearer Token Auth, RBAC, Service Principals</p>
+  <p><strong>DevOps &amp; Automation:</strong> Git/GitHub, AKS Deployments, Power Apps, Power Automate, REST APIs, Datadog</p>
+</div>
+
+<h2>Professional Experience</h2>
+
+<div class="company">84.51° (Kroger) — Cincinnati, OH</div>
+<div class="job-header clearfix">
+  <span class="job-title">FinOps Engineering Co-Op, Tech Optimization / Platform Engineering</span>
+  <span class="job-date">Aug. 2024 – Present</span>
+</div>
+<ul>
+  <li>Architected and own the <strong>FinOps Web Application</strong> — a 15+ page Plotly Dash/Flask platform used daily by finance, engineering, and leadership to manage ~$30M in annual cloud spend across cost dashboards, anomaly detection, forecasting, and contract management.</li>
+  <li>Built a <strong>three-tier data architecture</strong> (Databricks Delta Lake → Azure Redis → PostgreSQL) supporting 30+ cached pipelines with daily/weekly refresh cadences, cutting dashboard load times significantly.</li>
+  <li>Deployed and managed infrastructure to <strong>AKS using Terraform and Helm Charts</strong>; implemented RBAC via Azure AD / MSAL across TST/DEV/PRD environments with full DDL, migrations, and grants.</li>
+  <li>Designed a <strong>3-pillar AI Evaluation Framework</strong> — adopted enterprise-wide to score Copilot, Glean, Claude, and Gemini — reducing subjective AI tool selection with a 15-object schema and full CRUD UI.</li>
+  <li>Contributed to <strong>$6.9M+ in cloud optimization savings (FY24)</strong>, $7.5M+ annualized, through Spot Instance adoption, storage tiering, and Databricks efficiency initiatives.</li>
+  <li>Authored a Dash/Streamlit deployment guide with <strong>~1,000 internal Stack Overflow views</strong>; co-created the official Dash app template used by teams deploying to AKS via the BOB scaffold tool.</li>
+</ul>
+
+<div class="job-header clearfix" style="margin-top:5px;">
+  <span class="job-title">Software Development Co-Op, UC Medical Lab</span>
+  <span class="job-date">Nov. 2023 – 2024</span>
+</div>
+<ul>
+  <li>Built a full-stack GUI enabling lab members to trigger protein generation programs via API calls to a Linux HPC cluster, reducing manual CLI overhead for non-technical researchers.</li>
+  <li>Developed molecular dynamics pipelines using <strong>Python, React, Flask, and JavaScript</strong>; managed software installs and large-scale dataset curation on a Linux HPC environment.</li>
+</ul>
+
+<h2>Education</h2>
+<div class="edu-row clearfix">
+  <span class="edu-date">Aug. 2023 – Present (Expected: 2027)</span>
+  <div><span class="edu-name">University of Cincinnati</span> — Cincinnati, OH</div>
+  <div class="edu-detail">B.S. Software Development &nbsp;·&nbsp; B.S. Cybersecurity &nbsp;·&nbsp; 3.6 GPA | Dean's List</div>
+</div>
+<div class="edu-row">
+  <span class="edu-name">Saint Charles Preparatory High School</span> — Columbus, OH
+  <div class="edu-detail">3.9 GPA | 16 Honor Roll Awards</div>
+</div>
+
+<h2>Awards &amp; Scholarships</h2>
+<p class="inline-list">STEM-DeJaco Scholarship &nbsp;·&nbsp; Students in STEM Scholarship &nbsp;·&nbsp; Cincinnatus Century Scholarship</p>
+
+<h2>Volunteering</h2>
+<p class="inline-list"><strong>Gospel Road</strong> — Group Leader/Volunteer &nbsp;|&nbsp; Columbus, OH &nbsp;|&nbsp; July 2019 – July 2022 — Helped lead 3 urban mission trips.</p>
+
+</body>
+</html>
